@@ -1,0 +1,49 @@
+<! doc type HTML>
+<html>
+    <head>
+        <title>table</title>
+        <style>
+            table
+            {
+                width: 100%
+            }
+            table, tr, td,th 
+            {
+                Border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: black;
+                color: white;
+            }
+            caption
+            {
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table >
+            <caption>Songs and ratings</caption>
+            <tr>
+        <th width="50%">song</th><th>Artist</th><th>Rating</th>
+            </tr>
+            <tr>
+         <td>faithfully</td><td>Journey</td><td>*****</td>
+            </tr>
+            <tr>
+         <td>Keep  loving you</td><td>Reo Speedwagon</td><td>*****</td>
+            </tr>
+            <tr>
+           <td>Surrender</td><td>Cheap Trick</td><td>*****</td> 
+            </tr>
+          <td>Plainsong</td><td>The cure</td><td>***</td>
+            <tr>
+            <td>40 below</td><td>Mark Nadeau</td><td>*****</td>
+                </tr>
+        </table>
+    </body>
+</html>
+<!---rowspan="2" before first title of artist or any column will make column double, but you have to erase the second instance of repeat information, ie two songs from a same artist,you erase artist on second and add the rowspan="2" before name..-->
